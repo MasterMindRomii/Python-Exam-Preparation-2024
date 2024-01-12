@@ -56,3 +56,9 @@ print(chr(97))
 
 #Ord
 print(ord('a'))
+
+#Startwith
+print(Test.startswith('H'))
+
+#Endswith
+print(Test.endswith('4'))
