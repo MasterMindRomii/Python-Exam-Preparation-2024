@@ -26,7 +26,7 @@ print(t3 * 4)
 print(5 in t1)
 print(5 in t2)
 
-# 5. Min & max
+# 5. Min & Max
 print(max(t1))
 print(min(t1))
 
@@ -39,8 +39,24 @@ print(t1.index(4,1,5))
 # 8. Sorted()
 print(sorted(t1))
 
-#9. Sum()
+# 9. Sum()
 print(sum(t1))
+
+# 10. Tuple()
+
+l=['A','E','I','O','U']
+tup=tuple(l)
+print(tup)
+
+# 11. Delete tuple 
+del tup
+print(tup)
+
+# 12.Change mutable item in a tuple
+
+t=(1,[2,3,4,5,6],3,7,8,9)
+t[1][1]=34
+print(t)
 
 print("\nAfter Operations the tuples are:\n")
 print("List: ", t1)
